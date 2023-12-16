@@ -11,7 +11,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/faq-accordion-Z9Mt-yEJ-Y)
+- Live Site URL: (https://main--faq-accordion28.netlify.app/)
 
-## My process
+
 
 ### Built with
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Alexandra2888](https://www.frontendmentor.io/profile/Alexandra2888)
 
 
 
