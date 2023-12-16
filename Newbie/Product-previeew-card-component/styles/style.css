@@ -1,0 +1,172 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --var--clr-bg: #f2f2f2;
+    --var--clr-white: #fff;
+    --var--clr-aurometal: #6c7289;
+    --var--clr-gunmetal: #1c232b;
+    --var--clr-aquamarine: #3d8168;
+    --var--clr-aquamarine-hover: #1a4032;
+    --var-ff-montserrat: font-family: "Fraunces", serif;
+    --var--ff-fraunces: font-family: "Fraunces", serif;
+}
+
+body {
+    background-color: var(--var--clr-bg);
+    display: grid;
+    height: 100vh;
+    place-content: center center;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    max-width: 344px;
+    height: 600px;
+    margin: 10px;
+}
+
+.main__content-image {
+    background-image: url("../images/image-product-mobile.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: top center;
+    width: 344px;
+    height: 458px;
+    flex-shrink: 0;
+}
+
+.main__content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--var--clr-white);
+    text-align: left;
+}
+
+.main__content-box--title {
+    color: var(--var--clr-aurometal);
+    font-family: var(--var-ff-montserrat);
+    margin: 24px;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3125rem;
+}
+
+.main__content-box--description {
+    color: var(--var--clr-gunmetal);
+    font-family: var(--var--ff-fraunces);
+    font-size: 2rem;
+    max-width: 295px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.main__content-box--para {
+    color: var(--var--clr-aurometal);
+    font-family: var(--var-ff-montserrat);
+    max-width: 295px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 16px 24px 24px 24px;
+}
+
+.main__content-box--prices {
+    display: flex;
+    padding: 12px 24px;
+}
+
+.main__content-box--prices-new {
+    color: var(--var--clr-aquamarine);
+    font-family: var(--var--ff-fraunces);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.main__content-box--prices-old {
+    display: flex;
+    align-self: center;
+    color: var(--var--clr-aurometal);
+    font-family: var(--var-ff-montserrat);
+    font-size: 0.8125rem;
+    padding-left: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    text-decoration-line: line-through;
+}
+
+.main__content--btn {
+    width: 295px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: var(--var--clr-aquamarine);
+    color: var(--var--clr-white);
+    font-family: var(--var-ff-montserrat);
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main__content--btn:hover {
+    background-color: var(--var--clr-aquamarine-hover);
+}
+
+.main__content--cart {
+    width: 16px;
+    height: 16px;
+    margin: 0 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+/*media querries*/
+
+@media screen and (min-width: 768px) {
+
+    .main__content {
+        flex-direction: row;
+        max-width: 600px;
+        height: 450px;
+    }
+
+    .main__content-image {
+        background-image: url("../images/image-product-desktop.jpg");
+        width: 300px;
+        height: 450px;
+        border-radius: 10px 0 0 0 ;
+    }
+
+
+    .main__content-box--para {
+        margin-right: 40px;
+    }
+
+    .main__content--btn {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
