@@ -8,13 +8,9 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -28,14 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-12-17 182742](https://github.com/Alexandra2888/FEM-challenges-Newbie/assets/76844097/1ea843ce-75f5-4c6a-bb62-99aa1aa07e1f)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://single-price-grid-component28.netlify.app/)
 
 ## My process
 
@@ -51,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Alexandra28](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Alexandra28](https://www.frontendmentor.io/profile/Alexandra2888)
 
 
 
