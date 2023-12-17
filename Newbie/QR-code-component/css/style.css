@@ -12,7 +12,7 @@
     --clr-grayish: hsl(220, 15%, 55%);
     --clr-dark-blue: hsl(218, 44%, 22%);
     --fs: 15px;
-    --ff: font-family: "Outfit", sans-serif;
+    --ff: "Outfit", sans-serif;
 }
 
 body {

@@ -1,0 +1,181 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-cyan: hsl(179, 62%, 43%);
+    --clr-yellow: hsl(71, 73%, 54%);
+    --clr-gray: hsl(204, 43%, 93%);
+    --clr-blue: hsl(218, 22%, 67%);
+    --fs: 1rem;
+    --ff: "Karla", sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center center;
+    background-color: var(--clr-gray);
+    height: 100vh;
+}
+
+.main__content {
+    width: 19.4375rem;
+    height: 28.4375rem;
+    background-color: var(--clr-gray);
+}
+
+.section__join {
+    background-color: #fff;
+}
+
+.section__join-title {
+    color: var(--clr-cyan);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.38px;
+    letter-spacing: -.25px;
+    padding: 28px 24px 24px 24px;
+}
+
+.section__join-subtitle {
+    color: var(--clr-yellow);
+    font-weight: 700;
+    font-size: var(--fs);
+    line-height: 20px;
+    letter-spacing: -.19px;
+    padding: 16px 24px;
+}
+
+.section__join-para {
+    color: var(--clr-blue);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.17px;
+    padding: 24px;
+
+}
+
+.section__subscription-monthly {
+    background-color: var(--clr-cyan);
+}
+
+.section__subscription-monthly--title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.04px;
+    letter-spacing: -.22px;
+    padding: 24px 105px 18px 24px;
+}
+
+.section__subscription-monthly--price span:first-child {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.41px;
+    letter-spacing: -.4px;
+    padding: 18px 11px 4px 24px;
+}
+
+.section__subscription-monthly--price span:nth-child(2){
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -.2px;
+    opacity: .5;
+}
+
+.section__subscription-monthly--para {
+    padding: 24px 49px 26px 24px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: -.2px;
+}
+
+.section__subscription-monthly--btn {
+    background-color: var(--clr-yellow);
+    color: #fff;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -.2px;
+    text-align: left;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    margin: 0 24px 14px 24px;
+    cursor: pointer;
+}
+
+.section__subscription-monthly--us {
+    background-color: var(--clr-cyan);
+    stroke: #979797;
+    opacity: 75%;
+}
+
+.section__subscription-monthly--us h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.04px;
+    letter-spacing: -.22px;
+    padding: 24px 223px 18px 24px;
+}
+
+
+.section__subscription-monthly--us ul {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.17px;
+    text-align: left;
+    color: #fff;
+    padding: 18px 49px 24px 24px;
+    opacity: 0.75;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .main__content {
+        width: 635px;
+        height: 475px;
+    }
+
+    .section__subscription {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section__join-title {
+        padding: 40px 271px 12px 40px;
+    }
+
+    .section__join-subtitle {
+        padding: 12px 40px;
+    }
+
+    .section__join-para {
+        padding: 11px 40px 40px 40px
+    }
+
+    ul {
+        padding: 40px;
+    }
+
+    .section__subscription-monthly--us {
+        padding-bottom: 40px;
+    }
+}

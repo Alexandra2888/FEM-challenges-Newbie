@@ -13,8 +13,8 @@
     --var--clr-gunmetal: #1c232b;
     --var--clr-aquamarine: #3d8168;
     --var--clr-aquamarine-hover: #1a4032;
-    --var-ff-montserrat: font-family: "Fraunces", serif;
-    --var--ff-fraunces: font-family: "Fraunces", serif;
+    --var-ff-montserrat: "Fraunces", serif;
+    --var--ff-fraunces: "Fraunces", serif;
 }
 
 body {
