@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-12-17 103404](https://github.com/Alexandra2888/FEM-challenges-Newbie/assets/76844097/7cf8a475-f312-4642-b661-3b4b1f4c6d02)
+
 
 
 ### Links
