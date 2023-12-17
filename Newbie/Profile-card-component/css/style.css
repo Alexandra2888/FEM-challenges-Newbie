@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-dark-cyan: hsl(185, 75%, 39%);
+    --clr-very-dark-blue: hsl(229, 23%, 23%);
+    --clr-dark-blue: hsl(227, 10%, 46%);
+    --clr-dark-gray: hsl(0, 0%, 59%);
+    --fs: 18px;
+    --ff: "Kumbh Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg-pattern-top.svg"), 
+    url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    overflow: hidden;
+    background-color: var(--clr-dark-cyan);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    height: 100vh;
+}
+
+.main__content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.main__content-bg > img {
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    width: 340px;
+}
+
+.main__content-foto {
+    width: 110px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;    
+}
+
+.name {
+    display: flex;
+    gap: 8px;
+    margin: 3.5em auto .3em;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.name > strong {
+    color: var(--clr-dark-gray);
+    font-weight: 600;
+}
+
+.location {
+    font-size: .9em;
+    color: var(--clr-dark-gray);
+    font-weight: 600;
+    padding-bottom: 1.7em;
+}
+
+.section__content {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    border-top: .1px solid var(--clr-dark-gray);
+}
+
+.section__content-data {
+    padding: .4em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.section__content-number {
+    font-size: 1.1em;
+}
+
+.section__content-other {
+    color: var(--Dark-gray);
+    font-size: .6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
