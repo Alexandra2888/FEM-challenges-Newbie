@@ -22,6 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
+![Screenshot 2023-12-17 221358](https://github.com/Alexandra2888/FEM-challenges-Newbie/assets/76844097/066bb30a-34b0-4dd1-b5f9-023929a3ed7b)
 
 
 
