@@ -20,6 +20,7 @@ body {
     place-content: center center;
     background-color: var(--clr-gray);
     height: 100vh;
+    font-family: var(--ff);
 }
 
 .main__content {
