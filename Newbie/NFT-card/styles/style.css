@@ -1,0 +1,130 @@
+:root {
+    --clr-soft-blue: #8bacda;
+    --clr-cyan: #00fff7;
+    --clr-main-dark-blue: #0d192b;
+    --clr-card-dark-blue: #14253d;
+    --clr-line-dark-blue: #2f415b;
+
+    --fs: 18px;
+
+    --ff: "Outfit", sans-serif;
+    --fw-200: 200;
+    --fw-400: 400;
+    --fw-600: 600;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+image {
+    display: block;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--ff);
+    height: 100vh;
+    background-color: var(--clr-main-dark-blue);
+    line-height: 1.5;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.nft-card {
+    background-color: var(--clr-card-dark-blue);
+    border: 2px solid var(--clr-line-dark-blue);
+    border-radius: 15px;
+    padding: 24px;
+    max-width: 327px;
+    width: 90%; 
+    margin: 20px auto; 
+}
+
+.nft-card__image {
+    max-width: 100%; 
+    border-radius: 8px;
+}
+
+.nft-card__title {
+    color: #fff;
+    padding-top: 24px;
+    font-size: 22px;
+}
+
+.nft-card__description {
+    color: var(--clr-soft-blue);
+    padding-top: 12px;
+    font-size: var(--fs);
+}
+
+.nft-card__info {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card__price {
+    color: var(--clr-cyan);
+    font-size: 15px;
+    font-weight: var(--fw-400);
+    display: flex;
+    align-items: center;
+}
+
+.nft-card__icon {
+    margin-right: 7px;
+}
+
+.nft-card__time-left {
+    color: var(--clr-soft-blue);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nft-card__creator {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nft-card__creator-info {
+    padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-card__avatar {
+    width: 33px;
+    height: 33px;
+}
+
+.nft-card__creator-label {
+color: var(--clr-soft-blue);
+padding-right: 5px;
+}
+
+.nft-card__creator-name {
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .nft-card {
+        max-width: 350px;
+    }
+
+    .nft-card__image {
+        max-width: 302px;
+        margin: auto;
+    }
+}
