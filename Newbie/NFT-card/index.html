@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFT Card</title>
-    <link rel="stylesheet" href="./styles/style.css"/>
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <div class="nft-card">
-        <header class="nft-card__header">
-            <img class="nft-card__image" src="./images/image-equilibrium.jpg" alt="equilibrium"/>
-        </header>
-        <main class="nft-card__main">
-            <h1 class="nft-card__title">Equilibrium #3429</h1>
-            <p class="nft-card__description">Our Equilibrium collection promotes balance and calm.</p>
-            <section class="nft-card__info">
-                <span class="nft-card__price">
-                    <img class="nft-card__icon" src="./images/icon-ethereum.svg" alt=""/>
-                    0.041 ETH
-                </span>
-                <span class="nft-card__time-left">
-                    <img class="nft-card__icon" src="./images/icon-clock.svg" alt=""/>
-                    3 days left
-                </span>
-            </section>
-            <section class="nft-card__creator">
-                <img class="nft-card__avatar" src="./images/image-avatar.png" alt="avatar"/>
-                <p class="nft-card__creator-info">
-                    <span class="nft-card__creator-label">Creation of</span>
-                    <span class="nft-card__creator-name">Jules Wyvern</span>
-                </p>
-            </section>
-        </main>
+      <header class="nft-card__header">
+        <div class="nft-card__image-container">
+          <img
+            class="nft-card__image"
+            src="./images/image-equilibrium.jpg"
+            alt="equilibrium"
+          />
+          <div class="nft-card__overlay">
+            <img
+              src="./images/icon-view.svg"
+              alt="view"
+              class="nft-card__view-icon"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="nft-card__main">
+        <h1 class="nft-card__title">Equilibrium #3429</h1>
+        <p class="nft-card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <section class="nft-card__info">
+          <span class="nft-card__price">
+            <img
+              class="nft-card__icon"
+              src="./images/icon-ethereum.svg"
+              alt=""
+            />
+            0.041 ETH
+          </span>
+          <span class="nft-card__time-left">
+            <img class="nft-card__icon" src="./images/icon-clock.svg" alt="" />
+            3 days left
+          </span>
+        </section>
+        <section class="nft-card__creator">
+          <img
+            class="nft-card__avatar"
+            src="./images/image-avatar.png"
+            alt="avatar"
+          />
+          <p class="nft-card__creator-info">
+            <span class="nft-card__creator-label">Creation of</span>
+            <span class="nft-card__creator-name">Jules Wyvern</span>
+          </p>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
